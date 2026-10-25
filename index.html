@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - PadMute</title>
+<meta name="description" content="Privacy policy for PadMute - Mute Mic with Keyboard &amp; Gamepad, published by AltTab Technologies LLC.">
+<style>
+  :root {
+    --page: #f1f3f1;
+    --card: #ffffff;
+    --text: #1a1a1a;
+    --muted: #5c5c5c;
+    --rule: #e2e2e2;
+    --accent: #107c10;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --page: #121212;
+      --card: #1e1e1e;
+      --text: #ececec;
+      --muted: #a8a8a8;
+      --rule: #343434;
+      --accent: #54b054;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text);
+    font: 16px/1.7 "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  }
+  main {
+    max-width: 46rem;
+    margin: 2rem auto;
+    padding: 2.5rem 2rem 3rem;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+  }
+  @media (max-width: 40rem) {
+    main { margin: 0; border-radius: 0; border-left: 0; border-right: 0; padding: 1.75rem 1.25rem 2.5rem; }
+  }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
+  p, ul { margin: .6rem 0; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .45rem 0; }
+  .updated { color: var(--muted); margin: 0 0 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--rule); }
+  a { color: var(--accent); }
+  footer { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy for PadMute</h1>
+  <p class="updated">Last Updated: October 25, 2026</p>
+
+  <p><strong>AltTab Technologies LLC</strong> (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) respects your privacy. This Privacy Policy describes how <strong>PadMute - Mute Mic with Keyboard &amp; Gamepad</strong> (the &ldquo;Application&rdquo;) handles information on your Windows device.</p>
+
+  <h2>1. Data Collection and Local Architecture</h2>
+  <p>PadMute is built with a strictly Local-First architecture:</p>
+  <ul>
+    <li><strong>Personal Data:</strong> We do not collect, store, or transmit any personally identifiable information (PII).</li>
+    <li><strong>Usage Analytics:</strong> We do not track how you use the Application. There are no telemetry, tracking cookies, advertising software, crash-reporting, or background reporting services embedded in the Application.</li>
+    <li><strong>Network Access:</strong> The Application operates entirely on your local machine and does not transmit telemetry or user settings over the internet. The only online activity is the Microsoft Store license and purchase check described in Section 3, which Windows performs.</li>
+  </ul>
+
+  <h2>2. Information Handled Locally on Your Device</h2>
+  <p>To provide its core functionality, the Application interacts with system resources locally:</p>
+  <ul>
+    <li><strong>Microphones:</strong> The Application uses Windows audio APIs to mute and unmute your microphones, to read whether they are muted, and to check whether an app is currently using a microphone (for the optional overlay display mode). It never records, listens to, or stores audio.</li>
+    <li><strong>Keyboard Shortcut:</strong> The Application registers one global keyboard shortcut with Windows (by default Ctrl+Shift+M). It does not record or log what you type.</li>
+    <li><strong>Game Controller Input:</strong> The Application reads the button state of connected game controllers so it can detect your controller shortcut. This input is evaluated in memory, is never saved or transmitted, and the Application only acts on the shortcut you configured.</li>
+    <li><strong>Configuration Settings:</strong> Your preferences (e.g., shortcuts, overlay position and display mode, theme) are stored locally on your device in the Application's local settings.</li>
+  </ul>
+
+  <h2>3. In-App Purchases and Microsoft Store Services</h2>
+  <p>The Application uses official Microsoft Store APIs to check license status and process the optional PadMute Pro one-time upgrade:</p>
+  <ul>
+    <li>All payment transactions, billing details, and license verification are handled directly and securely by Microsoft under the Microsoft Privacy Statement.</li>
+    <li>AltTab Technologies LLC never processes, handles, or stores your credit card, payment details, or Microsoft Account login credentials.</li>
+  </ul>
+
+  <h2>4. Permissions</h2>
+  <p>The Application is a desktop app that runs with your normal user rights. It is declared as &ldquo;full trust&rdquo; so that it can use global shortcuts, read game controllers, and show a tray icon and an on-screen overlay, and it declares the microphone capability because it controls the mute state of your microphones. It does not access your files, contacts, camera, or location.</p>
+
+  <h2>5. Third-Party Services</h2>
+  <p>The Application does not integrate with any third-party advertising networks, analytical services, or social media SDKs.</p>
+
+  <h2>6. Children</h2>
+  <p>The Application does not collect information from anyone, including children.</p>
+
+  <h2>7. Changes to This Privacy Policy</h2>
+  <p>We may update this Privacy Policy from time to time to reflect future software enhancements or operational updates. Any changes will be indicated by the &ldquo;Last Updated&rdquo; date at the top of this policy page.</p>
+
+  <h2>8. Contact Us</h2>
+  <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at:</p>
+  <p>
+    <strong>AltTab Technologies LLC</strong><br>
+    Email: <a href="mailto:support@alttabtech.com">support@alttabtech.com</a>
+  </p>
+
+  <footer>&copy; 2026 AltTab Technologies LLC. All rights reserved.</footer>
+</main>
+</body>
+</html>
